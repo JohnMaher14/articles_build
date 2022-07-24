@@ -1721,7 +1721,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
 }
 @media screen and  (max-width:450px) {
   #newsTicker .item{
-    text-align: right;
+    text-align: center;
   }
   #newsTicker .owl-nav{
     display: none;
@@ -2922,7 +2922,8 @@ ul.cart-list>li.total>.btn:focus {
     }
 
     .meida-md .media-left {
-        padding-right: 0;
+        padding: 0;
+
     }
 
     .meida-md .media-right {
