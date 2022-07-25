@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 /*------------------------------------------------------------------
 Osru - HTML Blog, News & Magazine Template
 Version: 1.0.1;
@@ -38,6 +38,10 @@ Copyright: bdtask
 /*----------------------------------------------------------------------------*/
 /*---- 01. Typography ----*/
 /*----------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i');
+
 .mx-auto{
     margin: 0 auto !important;
 }
@@ -86,9 +90,6 @@ Copyright: bdtask
 .text-primary{
   color: #D17C78
 }
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i');
 @media screen and (min-width:1200px) {
 
     .top_right_ad{
@@ -130,7 +131,7 @@ body {
     font-size: 16px;
     color: #696969;
     transition: unset;
-    font-family: 'Alegreya Sans', sans-serif;
+    /* font-family: 'Alegreya Sans', sans-serif; */
     /* overflow: hidden; */
 }
 
@@ -169,7 +170,7 @@ h5,
 h6 {
     color: #222;
     font-weight: 600;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
 }
 
 ul,
@@ -648,7 +649,7 @@ a,
     }
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
 
     .top-header,
     .logo-wrapper {
@@ -1124,7 +1125,7 @@ body.on-side .side-overlay {
     border-top: 1px solid   rgb(51, 51, 51);
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .side {
         right: -300px;
         width: 300px;
@@ -1148,13 +1149,15 @@ ul.cart-list>li.total>.btn {
 }
 
 nav.navbar.bootsnav {
+  position: sticky;
+  top:0;
     border-bottom: 0;
     z-index: 999;
 }
 .mas-item:hover .mas-text{
     background-color: #d17c7880;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     nav.navbar.navbar-custom.bootsnav ul.nav>li>a {
         padding: 20px 25px 20px 0px;
     }
@@ -1226,7 +1229,7 @@ nav.navbar.bootsnav {
     }
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     body.side-right>.wrapper {
         margin-left: 0;
         margin-right: 0 !important;
@@ -1317,7 +1320,7 @@ nav.navbar.bootsnav {
     }
 }
 
-@media (min-width: 993px) {
+@media screen and (min-width: 993px) {
 
     /* Attr Nav ------*/
     .navbar-default .attr-nav {
@@ -1343,7 +1346,7 @@ nav.navbar.bootsnav {
         float: none;
         margin: 0 auto;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         align-items: center;
         table-layout: fixed;
     }
@@ -1671,7 +1674,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
     color: #6f6f6f;
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     nav.navbar.navbar-inverse.navbar-transparent.dark {
         background-color: rgba(0, 0, 0, 0.3);
         border-bottom: solid 1px #999;
@@ -1696,7 +1699,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
     }
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     nav.navbar.navbar-inverse .navbar-toggle {
         color: #eee;
         background-color: transparent;
@@ -1727,7 +1730,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
     display: none;
   }
 }
-@media (min-width: 993px) {
+@media screen and (min-width: 993px) {
     .navbar-inverse .attr-nav>ul>li>a {
         padding: 25px;
         font-size: 20px;
@@ -3044,11 +3047,11 @@ ul.cart-list>li.total>.btn:focus {
     font-size: 17px;
 }
 
-/* @media (min-width: 767px) {
+/* @media screen and (min-width: 767px) {
     padding: 10px 30px;
 } */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .newslatter .form-control {
         width: 350px !important;
     }
@@ -3949,7 +3952,7 @@ figure.effect-lily:hover p {
     }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .share_article .boxed_icon {
         width: 55px;
         height: 53px;
@@ -5576,7 +5579,7 @@ margin-right: 0;
     }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .video-title {
         -webkit-transform: rotate(-90deg);
         -moz-transform: rotate(-90deg);
@@ -5883,7 +5886,7 @@ margin-right: 0;
     }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .error-text h1 {
         font-size: 115px;
         font-weight: 800;
@@ -5906,7 +5909,7 @@ margin-right: 0;
     }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .error-text h1 {
         font-size: 160px;
         font-weight: 800;
@@ -6222,7 +6225,7 @@ footer {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     .footer-box br {
         display: none;
     }
