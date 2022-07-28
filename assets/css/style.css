@@ -1952,12 +1952,29 @@ ul.cart-list>li.total>.btn:focus {
     margin-bottom: 5px;
 }
 
+
 .entry-meta span {
     display: inline-block;
     position: relative;
     font-weight: 500;
     margin-right: 8px;
 }
+.leftSidebar{
+  position: sticky;
+  top:100px;
+}
+.rightSidebar{
+  position: sticky;
+  top:100px;
+}
+/*
+.homeContent .entry-meta span {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-weight: 500;
+    margin-right: 8px;
+} */
 
 .entry-meta span,
 .entry-meta span a {
@@ -2858,7 +2875,7 @@ ul.cart-list>li.total>.btn:focus {
 
 .meida-md .media-left a img,
 .meida-md .media-right a img {
-    width: 300px;
+    width: 250px;
     -webkit-transform: scale(1);
     transform: scale(1);
     will-change: transform;
