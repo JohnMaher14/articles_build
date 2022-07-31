@@ -5652,13 +5652,13 @@ margin-right: 0;
     height: 14px;
 }
 
-/* .title-shape-dark {
+.title-shape-dark {
     background: url(../img/shape-dark.png) 0 center repeat-x;
 }
 
 .title-shape-white {
     background: url(../img/shape-white.png) 0 center repeat-x;
-} */
+}
 
 .title-holder2 {
     position: relative;
